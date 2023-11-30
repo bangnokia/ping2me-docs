@@ -19,9 +19,9 @@ export default defineConfig({
       },
       {
         text: "Channels",
-        items: [
-          {text: "Create a channel", link: "/channels/create-a-channel"},
-        ]
+        items: prefix("channels", [
+          'create-a-channel.md'
+        ])
       },
       {
         text: "Bots",
@@ -41,3 +41,17 @@ export default defineConfig({
     ]
   }
 })
+
+
+function prefix(prefix, children) {
+  return children.map(child => ({
+    text: makeTitle(child.substr(0, child.length - 3)),
+    link: `/${prefix}/${child}`,
+  }));
+}
+
+// 'create-a-channel.md' -> 'Create a channel'
+function makeTitle(slug) {
+  // only uppercase first letter
+  return slug.charAt(0).toUpperCase() + slug.slice(1).replace(/-/g, ' ')
+}
