@@ -14,18 +14,24 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Introduction",
+        link: "/introduction"
+      },
+      {
+        text: "Channels",
+        items: []
+      },
+      {
+        text: "Bots",
+        items: []
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
-      {
-        text: "Introduction",
-        items: [
-
-        ]
-      }
     ],
 
     socialLinks: [
