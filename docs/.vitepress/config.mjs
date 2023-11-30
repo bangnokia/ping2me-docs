@@ -19,7 +19,9 @@ export default defineConfig({
       },
       {
         text: "Channels",
-        items: []
+        items: [
+          {text: "Create a channel", link: "/channels/create-a-channel"},
+        ]
       },
       {
         text: "Bots",
