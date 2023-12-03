@@ -20,12 +20,15 @@ export default defineConfig({
       {
         text: "Channels",
         items: prefix("channels", [
-          'create-a-channel.md'
+          'create-a-channel.md',
+          'connect-bot-to-channel.md',
         ])
       },
       {
         text: "Bots",
-        items: []
+        items: prefix('bots', [
+          'create-a-bot.md'
+        ])
       },
       {
         text: 'Examples',
