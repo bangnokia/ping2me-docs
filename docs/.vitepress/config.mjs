@@ -18,16 +18,16 @@ export default defineConfig({
         link: "/introduction"
       },
       {
+        text: "Bots",
+        items: prefix('bots', [
+          'create-a-bot.md'
+        ])
+      },
+      {
         text: "Channels",
         items: prefix("channels", [
           'create-a-channel.md',
           'connect-bot-to-channel.md',
-        ])
-      },
-      {
-        text: "Bots",
-        items: prefix('bots', [
-          'create-a-bot.md'
         ])
       },
       {

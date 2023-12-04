@@ -10,11 +10,11 @@ In Ping2me, we only manage bots which are created by you. Bot mean the bot from 
 
 ![](2023-12-03-22-37-17.png)
 
-::: info
+::: tip
 Don't worry if you don't know create a bot on your chat app, we will guide you through the process.
 :::
 
-## Create a Telegram bot
+## Create Telegram bot
 
 - Open Telegram app, search for `BotFather` and start a conversation with it
 ![](2023-12-03-22-46-58.png)
@@ -23,7 +23,7 @@ Don't worry if you don't know create a bot on your chat app, we will guide you t
 - Type a username for your bot, it must end with `bot` (e.g. `ping2me_bot`)
 - Copy the token and paste it to the Credential field on Ping2me
 
-## Create a Discord bot
+## Create Discord bot
 
 - Go to [Discord Developer Portal](https://discord.com/developers/applications){target=_blank}
 - Click `New Application` button
