@@ -30,17 +30,10 @@ export default defineConfig({
           'connect-bot-to-channel.md',
         ])
       },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/bangnokia/ping2me-docs' },
     ]
   }
 })
