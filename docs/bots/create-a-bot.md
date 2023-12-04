@@ -30,4 +30,4 @@ Don't worry if you don't know create a bot on your chat app, we will guide you t
 - Type a name for your bot
 - Click `Bot` on the left menu
 - Click `Add Bot` button
-- Click `Copy` button to copy the token and paste it to the Credential field on Ping2me
+- Click `Copy` button to copy the token and paste it to the Credentials field on Ping2me
