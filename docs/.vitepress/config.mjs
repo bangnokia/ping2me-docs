@@ -29,6 +29,12 @@ export default defineConfig({
           'connect-bot-to-channel.md',
         ])
       },
+      {
+        text: "Messages",
+        items: prefix("messages", [
+          'send-a-message.md',
+        ])
+      }
     ],
 
     socialLinks: [
