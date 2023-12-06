@@ -3,6 +3,9 @@
 To send a test message to your channel, to ensure everything is working as expected, you can click `Send test message` me nu button on the channel page.
 ![](2023-12-05-01-21-14.png)
 
+::: info
+The message length is limited to 4096 characters on Telegram, and 2000 characters on Discord. Don't worry, we auto strip the message to fit the limit.
+:::
 ## The ping api
 
 If you want to send a message to your channel programmatically, you can use our ping api. The ping api is a simple http api, you can send a request to it and it will send a message to your channel.
@@ -41,7 +44,7 @@ curl --location 'https://ping2.me/@daudau/my-channel' \
 }'
 ```
 
-You could receive a beautiful message like this:
+Then you could receive a beautiful message like this:
 ![](2023-12-05-01-41-35.png)
 
 Love it, right? 😍
