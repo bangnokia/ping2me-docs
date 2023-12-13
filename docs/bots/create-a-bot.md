@@ -31,3 +31,19 @@ Don't worry if you don't know create a bot on your chat app, we will guide you t
 - Click `Bot` on the left menu
 - Click `Add Bot` button
 - Click `Copy` button to copy the token and paste it to the Credentials field on Ping2me
+
+## Create Slack bot
+
+- Go to [Slack API](https://api.slack.com/apps){target=_blank}
+- Click `Create New App` button
+- Type a name for your app
+- Select a workspace
+- Click `Create App` button
+- Click `Bots` on the left menu
+- Click `Add Legacy Bot User` button
+- Type a name for your bot
+- Click `Add Bot User` button
+- Click `OAuth & Permissions` on the left menu
+- Click `Install App to Workspace` button
+- Click `Allow` button
+- Copy the `Bot User OAuth Access Token` and paste it to the Credentials field on Ping2me
