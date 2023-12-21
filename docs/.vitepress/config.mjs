@@ -34,6 +34,12 @@ export default defineConfig({
         items: prefix("messages", [
           'send-a-message.md',
         ])
+      },
+      {
+        text: "Integrations",
+        items: prefix("integrations", [
+          'sentry.md'
+        ])
       }
     ],
 
