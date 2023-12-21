@@ -38,6 +38,7 @@ export default defineConfig({
       {
         text: "Integrations",
         items: prefix("integrations", [
+          'api.md',
           'sentry.md',
           'rollbar.md',
           'php-Laravel.md',
