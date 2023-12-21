@@ -18,6 +18,8 @@ https://ping2.me/@adam/new-orders
 
 Then in your application, you can just send a POST request to this url with your message, and we will forward it to your chat app, or even send an json body, it will be display beautifully in your chat app with json syntax highlight.
 
+Or use this url as a webhook to receive notifications from other services to your chat app.
+
 :::info
 We also have official SDK for many languages, so you can use them to send notification to your chat app easily.
 At this time, we have SDK for: PHP and Laravel, you can find them in the sidebar.
