@@ -39,6 +39,7 @@ export default defineConfig({
         text: "Integrations",
         items: prefix("integrations", [
           'sentry.md',
+          'rollbar.md',
           'php-Laravel.md',
         ])
       }

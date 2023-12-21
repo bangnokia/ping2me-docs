@@ -15,3 +15,5 @@ Then visit Sentry Project `Settings > Integrations`, then search for webhook
 and add the channel endpoints to the `Callback URLs` field.
 
 ![](2023-12-22-00-44-59.png)
+
+That's easy right? Now you can receive notifications from Sentry to Telegram.
